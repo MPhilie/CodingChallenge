@@ -45,7 +45,7 @@ public class ContactInfo
      * params: String emailToSet
      * return: void
      */
-    public void getEmailAddress(String emailToSet) {
+    public void setEmailAddress(String emailToSet) {
         email = emailToSet;
     }
 
