@@ -19,17 +19,24 @@ public class BusinessCardParser
         ContactInfo parsed = new ContactInfo(document);
 
         //parse document
+        String delimiter = "\n";
+        String[] tokens = document.split(delimiter);
+        for (int i = 0; i < tokens.length; i++) {
+            System.out.println(tokens[i]);
+        }
+
         //set name, phone num, email along the way with setter funcs in ContactInfo
-        parsed.setName("Anthony");
+
         return parsed;
     }
     
     public static void main(String []args) {
-        String document = "test";
+        String document = "Marco Polo\nAsymmetrik LTD\nTour Guide\n443-896-4833\nme@me.com";
 
         ContactInfo result = getContactInfo(document);
         //print results with get___() functions from ContactInfo class
-        System.out.println("Name is: " + result.getName());
+
+
     }
 
 }
