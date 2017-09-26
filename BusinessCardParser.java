@@ -92,19 +92,19 @@ public class BusinessCardParser
         ContactInfo result3 = getContactInfo(document3);
         
         //print results with get___() functions from ContactInfo class
-        System.out.println("OCR document: \n" + document1);
+        System.out.println("OCR document 1: \n" + document1);
         System.out.println("Name: " + result1.getName());
         System.out.println("Phone: " + result1.getPhoneNumber());
         System.out.println("Email: " + result1.getEmailAddress());
         System.out.println();
         
-        System.out.println("OCR document: \n" + document2);
+        System.out.println("OCR document 2: \n" + document2);
         System.out.println("Name: " + result2.getName());
         System.out.println("Phone: " + result2.getPhoneNumber());
         System.out.println("Email: " + result2.getEmailAddress());
         System.out.println();
         
-        System.out.println("OCR document: \n" + document3);
+        System.out.println("OCR document 3: \n" + document3);
         System.out.println("Name: " + result3.getName());
         System.out.println("Phone: " + result3.getPhoneNumber());
         System.out.println("Email: " + result3.getEmailAddress());        
