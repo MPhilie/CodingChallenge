@@ -20,7 +20,7 @@ public class BusinessCardParser
 	public static ContactInfo getContactInfo(String document) {
         //for use later on in name comparisons
         List notNames = Arrays.asList("LTD", "Technologies", "Developer", "Engineer", 
-        "Software", "Company", "Analytic", "Security", "Senior", "Junior", "INC");
+        "Software", "Company", "Analytic", "Security", "Senior", "Junior", "INC", "Corporation");
 
         //init ContactInfo object
         ContactInfo parsed = new ContactInfo(document);
@@ -77,7 +77,6 @@ public class BusinessCardParser
                     parsed.setName(tokens[i]);
                 }
             }
-
         }
 
         return parsed;
@@ -110,5 +109,4 @@ public class BusinessCardParser
         System.out.println("Phone: " + result3.getPhoneNumber());
         System.out.println("Email: " + result3.getEmailAddress());        
     }
-
 }
