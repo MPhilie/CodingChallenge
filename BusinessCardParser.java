@@ -22,7 +22,9 @@ public class BusinessCardParser
         String delimiter = "\n";
         String[] tokens = document.split(delimiter);
         for (int i = 0; i < tokens.length; i++) {
-            System.out.println(tokens[i]);
+            if(tokens[i].contains("@")) {
+                parsed.setEmailAddress(tokens[i]);
+            }
         }
 
         //set name, phone num, email along the way with setter funcs in ContactInfo
@@ -35,7 +37,10 @@ public class BusinessCardParser
 
         ContactInfo result = getContactInfo(document);
         //print results with get___() functions from ContactInfo class
-
+        //System.out.println("Name: " + result.getName());
+        //System.out.println("Phone: " + result.getPhoneNumber());
+        System.out.println("Email: " + result.getEmailAddress());
+        
 
     }
 
