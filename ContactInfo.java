@@ -19,7 +19,6 @@ public class ContactInfo
 
     // constructor
     public ContactInfo(String document) {
-        System.out.println("came to init ContactInfo object\n");
         unparsed = document;
     }
 
@@ -29,7 +28,6 @@ public class ContactInfo
      * return: void
      */
 	public void setName(String nameToSet) {
-        System.out.println("came to set name to Anthony\n");        
         name = nameToSet;
 	}
 
@@ -51,14 +49,12 @@ public class ContactInfo
         email = emailToSet;
     }
 
-
     /*
      * returns the full name of individual
      * params: none
      * return: String name
      */
 	public String getName() {
-        System.out.println("came to get name\n");        
         return name;
 	}
 
