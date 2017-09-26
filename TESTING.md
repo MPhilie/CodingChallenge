@@ -76,7 +76,7 @@ The last component was the name. I put three different test documents in my prog
 
 ```
 MacBook-Pro:AsymmetrikPhilie morgan$ java BusinessCardParser
-OCR document: 
+OCR document 1: 
 Marco Polo
 Asymmetrik LTD
 Tour Guide
@@ -88,7 +88,7 @@ Name: Marco Polo
 Phone: 4438964833
 Email: me@me.com
 
-OCR document: 
+OCR document 2: 
 Foobar Technologies
 Analytic Developer
 Lisa Haung
@@ -102,7 +102,7 @@ Name: Lisa Haung
 Phone: 4105551234
 Email: lisa.haung@foobartech.com
 
-OCR document: 
+OCR document 3: 
 Arthur Wilson
 Software Engineer
 Decision & Security Technologies
