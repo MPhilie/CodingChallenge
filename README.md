@@ -6,7 +6,7 @@
 `javac ContactInfo.java` and `javac BusinessCardParser.java` to compile the programs
 
 **Usage:**
- * `BusinessCardParser` is the executable program by running `java BusinessCardParser`.
+ * `BusinessCardParser` is the executable program via `java BusinessCardParser`.
  * It is expected that _before_ running the Parser, the user has a suitable Java
  environment. I worked under Java version 1.8.0_60.
 
